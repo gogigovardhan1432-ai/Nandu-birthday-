@@ -1,1 +1,48 @@
-
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#ffedf5">
+<title>Happy Birthday Nandu 👻💗</title>
+<style>
+:root{--pink:#ff6fae;--deep:#a62e6d;--ink:#51364a}
+*{box-sizing:border-box}body{margin:0;font-family:system-ui,-apple-system,Segoe UI,sans-serif;color:var(--ink);background:radial-gradient(circle at top,#fff 0,#ffeaf4 45%,#f7eaff 100%);overflow-x:hidden}
+main{width:min(920px,92%);margin:auto;padding:30px 0 60px}.hero{text-align:center;padding:44px 18px 34px;border:1px solid #ffffffb8;border-radius:30px;background:#ffffffb8;box-shadow:0 20px 60px #a62e6d18}
+.pill{display:inline-block;background:#ffe0ee;color:var(--deep);border-radius:99px;padding:8px 14px;font-size:.85rem}
+h1{font-family:Georgia,serif;font-size:clamp(2.5rem,8vw,5rem);line-height:1.04;margin:20px 0 12px;color:var(--deep)}h1 span{display:block;color:var(--pink);font-style:italic}
+.subtitle{font-size:1.05rem;line-height:1.7;max-width:600px;margin:0 auto 24px}button{border:0;border-radius:999px;padding:13px 21px;background:linear-gradient(135deg,#ff79b4,#c86cff);color:white;font-weight:750;font-size:1rem;cursor:pointer;box-shadow:0 8px 20px #d44e9b35}
+.section{margin-top:22px;padding:26px;border-radius:25px;background:#ffffffdf;border:1px solid #fff;box-shadow:0 12px 35px #a62e6d10}.section h2{font-family:Georgia,serif;color:var(--deep);font-size:1.7rem;margin:0 0 10px}.note{line-height:1.8;margin:0}
+.cards{display:grid;grid-template-columns:repeat(3,1fr);gap:12px;margin-top:18px}.card{padding:18px 12px;text-align:center;border-radius:20px;background:linear-gradient(145deg,#fff1f7,#f6efff);min-height:120px}.card .emoji{font-size:2rem;display:block;margin-bottom:8px}.card strong{display:block;color:var(--deep);margin-bottom:4px}
+.ghost-area{text-align:center;padding:30px 10px}.ghost{font-size:4.5rem;background:#fff;border:2px dashed #f3a6cc;border-radius:28px;width:120px;height:120px;display:grid;place-items:center;margin:12px auto 18px;animation:float 2.5s ease-in-out infinite}
+@keyframes float{0%,100%{transform:translateY(0) rotate(-4deg)}50%{transform:translateY(-9px) rotate(4deg)}}#surprise{display:none;margin:18px auto 0;max-width:650px}#surprise.show{display:block;animation:pop .45s ease}@keyframes pop{from{opacity:0;transform:scale(.94)}to{opacity:1;transform:scale(1)}}
+video{width:100%;max-height:430px;background:#251c28;border-radius:18px;margin-top:12px}.small{font-size:.88rem;color:#846b7c;line-height:1.6}footer{text-align:center;padding:30px 10px 0;font-size:.95rem}.heart{color:#ed5b9c}
+@media(max-width:620px){.cards{grid-template-columns:1fr}.hero{padding-top:34px}.section{padding:21px}.card{min-height:auto}}
+.confetti{position:fixed;top:-20px;pointer-events:none;z-index:10;animation:fall linear forwards}@keyframes fall{to{transform:translateY(110vh) rotate(720deg);opacity:.15}}
+</style></head>
+<body><main>
+<section class="hero"><span class="pill">A little surprise for my favourite ghost 👻✨</span>
+<h1>Happy Birthday,<span>Nandu! 💗</span></h1>
+<p class="subtitle">To my favourite person, Nandu — aka Ghost 👻. Our daily chats make ordinary days feel special, so today I made a little corner of the internet just for you.</p>
+<button onclick="celebrate()">Open your birthday magic ✨</button></section>
+<section class="section"><h2>Dear Nandu, 💌</h2>
+<p class="note">I may not have a big gift or a fancy surprise, but I wanted to make something with care just for you. Thank you for the daily chats, the random talks, the laughs, and all those little moments that make a day better. I hope this new year of your life brings you happiness, confidence, good people, and countless reasons to smile. Keep being your lovely, funny self, Ghost 👻. You deserve so many beautiful things. Have the happiest birthday ever! 🎂🌷</p></section>
+<section class="section"><h2>Three wishes for you, Ghost 🌸</h2><div class="cards">
+<div class="card"><span class="emoji">🌈</span><strong>Endless happiness</strong><span>May your days be full of colour.</span></div>
+<div class="card"><span class="emoji">🌟</span><strong>Dreams come true</strong><span>Keep shining in your own way.</span></div>
+<div class="card"><span class="emoji">🫶</span><strong>Bestie forever</strong><span>May you always feel appreciated.</span></div>
+</div></section>
+<section class="section ghost-area"><h2>Psst… Ghost, tap yourself 👀</h2><p class="note">Your secret birthday video is hiding behind this emoji!</p>
+<button class="ghost" aria-label="Reveal Nandu's birthday video" onclick="revealVideo()">👻</button>
+<div id="surprise"><h2>Surprise, Nandu! It's YOU! 💖</h2><p class="note">A little video just for the birthday girl 🎀</p>
+<video id="birthdayVideo" controls playsinline webkit-playsinline preload="metadata"><source src="nandu_video.mp4" type="video/mp4">Your browser does not support this video. Please open the website in Chrome.</video><p id="videoHelp" class="small" role="status">If it does not start automatically, tap ▶ on the video.</p>
+<p class="small">Made especially for you, Nandu 💗</p></div></section>
+<section class="section" style="background:linear-gradient(135deg,#fff1f8,#f5eaff);text-align:center">
+<h2>One little thing, Nandu 💗</h2>
+<p class="note">I’m really sorry I can’t attend your birthday party. I wish I could be there to celebrate with you, laugh with you, and make more memories together. Even though I can’t come in person, I’m sending you the biggest hug and all my love from here. Please enjoy your special day—you deserve all the happiness in the world. Happy Birthday, my favourite person! 🎂💖</p>
+</section>
+<footer>From your favourite person (your bestie 😉), with care and a little birthday magic <span class="heart">♥</span></footer>
+</main><script>
+function revealVideo(){const box=document.getElementById('surprise');const video=document.getElementById('birthdayVideo');box.classList.add('show');burst();box.scrollIntoView({behavior:'smooth',block:'center'});video.load();const attempt=video.play();if(attempt&&typeof attempt.catch==='function'){attempt.catch(()=>{document.getElementById('videoHelp').textContent='If playback does not start, make sure you extracted the entire ZIP folder and keep index.html and nandu_video.mp4 together. Then reopen index.html in Chrome and tap ▶.';});}}
+function celebrate(){burst();document.querySelector('.hero').scrollIntoView({behavior:'smooth',block:'start'});}
+function burst(){const symbols=['💖','✨','🌸','🎉','💕','⭐','👻'];for(let i=0;i<30;i++){const el=document.createElement('span');el.className='confetti';el.textContent=symbols[Math.floor(Math.random()*symbols.length)];el.style.left=Math.random()*100+'vw';el.style.animationDuration=(2.2+Math.random()*2.5)+'s';el.style.fontSize=(14+Math.random()*20)+'px';document.body.appendChild(el);setTimeout(()=>el.remove(),5000);}}
+</script></body></html>
